@@ -11,7 +11,9 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
+    "animate.css": "^3.7.0",
     "vue": "^2.5.17",
+    "vue-flickity": "^1.1.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
