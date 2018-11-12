@@ -10,6 +10,9 @@
 <script>
 import Sidebar from './components/Sidebar.vue'
 import 'animate.css/animate.css'
+import axios from 'axios'
+
+axios.defaults.baseURL = 'http://app-store-laravel.test/api'
 
 export default {
   components: {
